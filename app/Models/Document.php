@@ -26,8 +26,8 @@ class Document extends Model
     /**
      * Get the user that owns the Document.
      */
-    public function user(): BelongsTo
+    public function creator()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(User::class, 'user_id');
     }
 }
