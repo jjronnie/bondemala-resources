@@ -92,6 +92,13 @@
             {{ $slot }}
         </main>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.js"></script>
+<script>
+  // Automatically initializes the icons after the script loads
+  lucide.createIcons();
+</script>
+
 </body>
 
 </html>
