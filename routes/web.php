@@ -19,8 +19,8 @@ Route::get('/', function () {
     return view('welcome', compact('documents'));
 });
 
-// Public Download Link (No Login Required)
-Route::get('download/document/{document}', [DocumentController::class, 'download'])
+
+Route::get('documents/download/{document}', [DocumentController::class, 'download'])
     ->name('document.download');
 
 /*

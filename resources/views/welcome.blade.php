@@ -162,7 +162,7 @@
                 <p class="text-lg sm:text-xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
                     Access and download important company documents here. 
                 </p>
-                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                {{-- <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a class="inline-flex items-center px-6 py-3 bg-white text-indigo-600 rounded-lg font-semibold text-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 transition duration-150 ease-in-out shadow-lg" 
                         href="http://bondemalainvestmentsmc.com?utm_source=bisl_resources_home" 
                         target="_blank">
@@ -171,7 +171,8 @@
                         </svg>
                         Visit Our Website
                     </a>
-                </div>
+                    
+                </div> --}}
             </div>
             <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
                 <div class="absolute -top-40 -right-32 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
