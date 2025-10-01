@@ -22,13 +22,13 @@ public function run(): void
         ],
         [
             'name' => 'Wamala Roy',
-            'email' => 'wamalaroy3@gmail.com',
-            'password' => Hash::make('admin@BISL2025'),
+            'email' => 'roywamala3@gmail.com',
+            'password' => Hash::make('W-Gx9@RmS!42zP#vTq'),
         ],
         [
-            'name' => 'System Admin',
-            'email' => 'admin@bisl.com',
-            'password' => Hash::make('88928892'),
+            'name' => 'Bondemala Admin',
+            'email' => 'bondemalainvestment@gmail.com',
+            'password' => Hash::make('W-Gx9@RmS!42zP#vTq'),
         ],
     ];
 
