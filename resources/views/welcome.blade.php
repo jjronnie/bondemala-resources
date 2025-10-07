@@ -255,7 +255,7 @@
 
                         <div class="p-4 lg:p-6">
                             <div class="mb-4">
-                                <h4 class="text-base lg:text-lg font-semibold text-gray-900 line-clamp-2 mb-2" :title="document.title" x-text="document.title">
+                                <h4 class="text-base lg:text-lg font-semibold text-gray-900 mb-2" :title="document.title" x-text="document.title">
                                     </h4>
                                 <div class="flex items-center text-xs text-gray-500">
                                     <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
