@@ -28,7 +28,7 @@
                             <x-input-label for="document" :value="__('Replace Document File (Optional)')" />
                             <input id="document" name="document" type="file" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100"/>
                             <x-input-error :messages="$errors->get('document')" class="mt-2" />
-                            <p class="mt-1 text-xs text-gray-500">Leave blank to keep current file. Max size 10MB. Allowed types: PDF, DOC, DOCX, XLSX, XLS, TXT, ZIP.</p>
+                            <p class="mt-1 text-xs text-gray-500">Leave blank to keep current file. Max size 200MB. Allowed types: PDF, DOC, DOCX, XLSX, XLS, TXT, ZIP.</p>
                         </div>
 
                         <div class="mt-4">
